@@ -6,7 +6,7 @@
 restart your terminal
 
 ## Build image
-`docker pull nvidia/cuda:11.2.1-cudnn8-devel-ubuntu20.04`
+`docker pull nvidia/cuda:11.2.1-cudnn8-devel-ubuntu20.04` or [other images](https://hub.docker.com/r/nvidia/cuda/tags)
 
 `vim Dockerfile`
 
