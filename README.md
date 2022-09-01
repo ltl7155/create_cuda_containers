@@ -3,6 +3,7 @@
 
 `sudo usermod -aG docker kangjie`
 
+restart your terminal
 
 ## Build image
 `docker pull nvidia/cuda:11.2.1-cudnn8-devel-ubuntu20.04`
