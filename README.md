@@ -31,8 +31,6 @@
 
 `sudo bash add_user.sh`
 
-`mv bashrc /home/user_name/.bashrc`
-
 `mv bash_profile /home/user_name/.bash_profile`
 
 `exit`
