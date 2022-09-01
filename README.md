@@ -10,6 +10,11 @@
 
 `docker build -t ckj_image .`
 
+## Download Miniconda
+`cd init_files/`
+
+`wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
+
 
 ## Create a new container
 `sudo ./create_containers.sh`
@@ -18,9 +23,9 @@
 
 
 ## Add a user for the container
-`docker exec -it container_name /bin/bash`
-
 > inside the container
+
+`docker exec -it container_name /bin/bash`
 
 `cd /home/user_name/`
 
