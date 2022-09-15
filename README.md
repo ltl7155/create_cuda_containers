@@ -33,7 +33,7 @@ restart your terminal
 
 `sudo bash add_user.sh`
 
-`mv bash_profile /home/user_name/.bash_profile`
+`mv bash_profile ../.bash_profile`
 
 `exit`
 
