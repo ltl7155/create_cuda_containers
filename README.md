@@ -42,7 +42,7 @@ restart your terminal
 
 `cd init_files`
 
-`mv bash_profile ../.bash_profile`
+`mv .* ~/`
 
 `./Miniconda.sh`
 
