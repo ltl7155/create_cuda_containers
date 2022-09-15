@@ -47,3 +47,27 @@ restart your terminal
 `./Miniconda.sh`
 
 `exit`
+
+## login without password
+
+> inside the local machine
+
+`scp -P 32869 ~/.ssh/id_rsa.pub kangjie@155.69.148.30:~/`
+
+```
+# ~/.ssh/config
+Host  server6kangjie
+    HostName   155.69.148.30
+    Port       32869
+    User       kangjie
+    IdentityFile    ~/.ssh/id_rsa
+```
+
+> inside the container
+
+`mkdir ~/.ssh/`
+
+`cat id_rsa.pub >> .ssh/authorized_keys`
+
+
+
