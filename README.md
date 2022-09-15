@@ -44,7 +44,7 @@ restart your terminal
 
 `mv .* ~/`
 
-`./Miniconda.sh`
+`bash Miniconda.sh`
 
 `exit`
 
