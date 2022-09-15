@@ -33,14 +33,16 @@ restart your terminal
 
 `sudo bash add_user.sh`
 
-`mv bash_profile ../.bash_profile`
-
 `exit`
 
 
 > outside the container, test for the create user with the specific port
 
 `ssh user_name@ip -p port`
+
+`cd init_files`
+
+`mv bash_profile ../.bash_profile`
 
 `./Miniconda.sh`
 
