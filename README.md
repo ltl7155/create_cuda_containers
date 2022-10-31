@@ -10,7 +10,7 @@ restart your terminal
 
 `vim Dockerfile`
 
-`docker build -t ckj_image .`
+`docker build -t kangjie/contianer_image:cuda11.2.1-cudnn8-devel-ubuntu20.04 .`
 
 ## Download Miniconda
 `cd init_files/`
