@@ -15,6 +15,6 @@ for n in kangjie
         -v "/home/kangjie/data_drive/docker_user/$n:/home/$n"  \
         --restart=always \
         ckj_image:latest;
-    cp -r init_files/ /home/kangjie/data_drive/docker_user/$n/;
+    cp -r init_files/. /home/kangjie/data_drive/docker_user/$n/;
     c=$((c+1));
 done
