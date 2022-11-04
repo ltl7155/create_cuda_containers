@@ -40,10 +40,6 @@ restart your terminal
 
 `ssh user_name@ip -p port`
 
-`cd init_files`
-
-`mv .* ~/`
-
 `bash Miniconda.sh`
 
 `exit`
