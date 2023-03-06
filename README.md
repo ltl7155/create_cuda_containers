@@ -67,3 +67,11 @@ Host  server6kangjie
 
 
 
+# Check config for a container
+
+> check container first
+`docker ps`
+
+> check config file for the container
+`sudo ls /var/lib/docker/containers/`
+`sudo cat /var/lib/docker/containers/container-id/config.v2.json`
