@@ -69,12 +69,21 @@ Host  server6kangjie
 
 # Check config for a container
 
-> check container first
+> check container first and remeber the container ID
 
 `docker ps`
+
+
+> stop docker service
+
+`sudo systemctl stop docker`
 
 > check config file for the container
 
 `sudo ls /var/lib/docker/containers/`
 
-`sudo cat /var/lib/docker/containers/container-id/config.v2.json`
+`sudo vim /var/lib/docker/containers/container-id/config.v2.json`
+
+
+> start docker service
+`sudo systemctl start docker`
