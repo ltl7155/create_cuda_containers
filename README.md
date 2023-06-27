@@ -1,5 +1,8 @@
 ## Install docker and [nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)
-Install nvidia-container-toolkit according to the [installation guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#installation-guide)
+
+Install nvidia-container-toolkit according to the [installation guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#getting-started)
+
+`sudo apt-get install nvidia-docker2`
 
 `sudo usermod -aG docker kangjie`
 
